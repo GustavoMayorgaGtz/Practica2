@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+  
+</head>
+
+<body class="body">
+    <nav class="nav">
+        <div class="title">Practica 2</div>
+        <div class="option" id="clientes-enable">Crear Usuario</div>
+        <div class="option" id="peliculas-enable">Crear Pelicula</div>
+    </nav>
+
+    <div class="container-usuario" id="container1">
+        <form action="#" id="formulario">
+            <span class="title">Registra un cliente nuevo</span>
+            <div class="bloque">
+                <div class="title">Nombre</div>
+                <input type="text" class="input-text" id="name" >
+            </div>
+            <div class="bloque">
+                <div class="title">Direccion</div>
+                <input type="text" class="input-text" id="direction">
+            </div>
+            <div class="bloque">
+                <div class="title">Telefono</div>
+                <input type="text" class="input-text" id="phone">
+            </div>
+            <div class="bloque">
+                <div class="title">Saldo</div>
+                <input type="text" class="input-text" id="quantity">
+            </div>
+            <div class="bloque-guardar" id="guardar-cliente">
+              Guardar Cliente               
+            </div>
+        </form>
+        <br>
+    </div>
+
+    <div class="container-peliculas" id="container2">
+        <form action="#" id="formulario">
+            <span class="title">Registra una pelicula</span>
+            <div class="bloque">
+                <div class="title">Codigo</div>
+                <input type="text" class="input-text" id="code">
+            </div>
+            <div class="bloque">
+                <div class="title">Nombre</div>
+                <input type="text" class="input-text" id="movie">
+            </div>
+            <div class="bloque">
+                <div class="title">Genero</div>
+                <input type="text" class="input-text" id="type">
+            </div>
+            <div class="bloque">
+                <div class="title">Precio</div>
+                <input type="text" class="input-text" id="price">
+            </div>
+            <div class="bloque-guardar" id="guardar-pelicula">
+              Guardar Pelicula               
+            </div>
+        </form>
+        <br>
+    </div>
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
